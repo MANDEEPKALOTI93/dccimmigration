@@ -11447,6 +11447,57 @@ header.masthead {
         background-image: url("../assets/img/background3.jpg");
       }
       }
+
+#ABOUT_BG{
+  width: 100%;
+  height: 100%;
+  background-image: url("../assets/img/aboutus.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  backface-visibility: hidden;
+}
+#CONTACT_BG{
+  width: 100%;
+  height: 100%;
+  background-image: url("../assets/img/contact.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  backface-visibility: hidden;
+}
+#ASSESSMENT_BG{
+  width: 100%;
+  height: 100%;
+  background-image: url("../assets/img/assessment.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  backface-visibility: hidden;
+}
+#KNOWLEDGE_BG{
+  width: 100%;
+  height: 100%;
+  background-image: url("../assets/img/Knowledge-Bank.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  backface-visibility: hidden;
+}
+#SERVICES_BG{
+  width: 100%;
+  height: 100%;
+  background-image: url("../assets/img/services.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  backface-visibility: hidden;
+}      
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
   font-style: italic;
