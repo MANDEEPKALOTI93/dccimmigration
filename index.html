@@ -177,14 +177,13 @@
                         <input type="hidden" name="_subject" value="NEW REQUEST AN ASSESSMENT!" />
                    </div>  
                     <div class="form-group">
-                    <input class="form-control" id="_name" type="text" placeholder="Full Name *" name="name" data-sb-validation="required" />
-                    <div class="invalid-feedback" data-sb-feedback="name:required">Please enter the name</div>
+                    <input class="form-control" id="_name" type="text" placeholder="Full Name *" name="name" data-sb-validation="required" /><br>
                 </div>
                 <div class="form-group">
-                    <input class="form-control" id="_email" type="email" name="email" placeholder="Your Email *" data-sb-validation="required" />
+                    <input class="form-control" id="_email" type="email" name="email" placeholder="Your Email *" data-sb-validation="required" /><br>
                 </div>
                 <div class="form-group mb-md-0">
-                    <input class="form-control" id="_phone" type="phone" name="phone" placeholder="Your Phone Number *" data-sb-validation="required" />
+                    <input class="form-control" id="_phone" type="phone" name="phone" placeholder="Your Phone Number *" data-sb-validation="required" /><br>
                 </div>
                 <div class="form-group">
                     <select class="form-control" id="_services" type="services" value="" name="services">
@@ -194,20 +193,20 @@
                         <option>WORK PERMIT / LMIA</option>
                         <option>EXPRESS ENTRY</option>
                         <option>OTHER SERVICE</option>
-                    </select>
+                    </select><br>
                 </div>
-                <div class="form-group">
-                    <textarea class="form-control" id="_message" type="message" name="message" placeholder="Enter Message *" data-sb-validations="required"></textarea>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group form-group-textarea mb-md-0">
+                    <textarea class="form-control" id="_message" rows="9" cols="9" placeholder="Enter Message *" data-sb-validations="required"></textarea><br>
                 </div>
                 <div class="form-group">
                     <input type="hidden" name="_captcha" value="false">
                 </div>
+            </div>
+                <input type="hidden" name="_next" value="https://mandeepkaloti93.github.io/dccimmigration/">
                 <div class="text-center">
                     <button id="submit" type="submit">Send</button>
-                </div>
-                <div class="form-group">
-                    <input type="hidden" name="_next" value="https://mandeepkaloti93.github.io/dccimmigration/">
-                </div>
                 </div>
             </div>
             </form>

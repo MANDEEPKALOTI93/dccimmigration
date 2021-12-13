@@ -62,57 +62,46 @@
                 <!-- * * * * * * * * * * * * * * *-->
                 <!-- * * SB Forms Contact Form * *-->
                 <!-- * * * * * * * * * * * * * * *-->
-                <!-- This form is pre-integrated with SB Forms.-->
-                <!-- To make this form functional, sign up at-->
-                <!-- https://startbootstrap.com/solution/contact-forms-->
-                <!-- to get an API token!-->
-                <form id="contactForm" data-sb-form-api-token="e8d59cbe-9d6c-471e-b4d8-7b1e1f2af94c">
-                    <div class="row align-items-stretch mb-5">
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <!-- Name input-->
-                                <input class="form-control" id="name" type="text" placeholder="Full Name *" data-sb-validations="required" />
-                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
-                            </div>
-                            <div class="form-group">
-                                <!-- Email address input-->
-                                <input class="form-control" id="email" type="email" placeholder="Email Address *" data-sb-validations="required,email" />
-                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required. Email is not valid.</div>
-                            </div>
-                            <div class="form-group mb-md-0">
-                                <!-- Phone number input-->
-                                <input class="form-control" id="phone" type="tel" placeholder="Phone Number *" data-sb-validations="required" />
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group form-group-textarea mb-md-0">
-                                <!-- Message input-->
-                                <textarea class="form-control" id="message" placeholder="Message *" data-sb-validations="required"></textarea>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Submit success message-->
-                    <!---->
-                    <!-- This is what your users will see when the form-->
-                    <!-- has successfully submitted-->
-                    <div class="d-none" id="submitSuccessMessage">
-                        <div class="text-center text-white mb-3">
-                            <div class="fw-bolder">Form submission successful!</div>
-                            To activate this form, sign up at
-                            <br />
-                            <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                        </div>
-                    </div>
-                    <!-- Submit error message-->
-                    <!---->
-                    <!-- This is what your users will see when there is-->
-                    <!-- an error submitting the form-->
-                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                    <!-- Submit Button-->
-                    <div class="text-center"><button id="submitButton" type="submit">Submit</button></div>
-                </form>
+                <form id="contactForm "action="https://formsubmit.co/kaurmandeep6701@gmail.com" method="POST">
+                        <div class="row align-items-stretch mb-5">
+                            <div class="col-md-6">   
+                    <div class="form-group">
+                        <input type="hidden" name="_subject" value="NEW REQUEST AN ASSESSMENT!" />
+                   </div>  
+                    <div class="form-group">
+                    <input class="form-control" id="_name" type="text" placeholder="Full Name *" name="name" data-sb-validation="required" /><br>
+                </div>
+                <div class="form-group">
+                    <input class="form-control" id="_email" type="email" name="email" placeholder="Your Email *" data-sb-validation="required" /><br>
+                </div>
+                <div class="form-group mb-md-0">
+                    <input class="form-control" id="_phone" type="phone" name="phone" placeholder="Your Phone Number *" data-sb-validation="required" /><br>
+                </div>
+                <div class="form-group">
+                    <select class="form-control" id="_services" type="services" value="" name="services">
+                        <option>Select Service</option>
+                        <option>STUDY VISA</option>
+                        <option>VISITOR VISA</option>
+                        <option>WORK PERMIT / LMIA</option>
+                        <option>EXPRESS ENTRY</option>
+                        <option>OTHER SERVICE</option>
+                    </select><br>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group form-group-textarea mb-md-0">
+                    <textarea class="form-control" id="_message" rows="9" cols="9" placeholder="Enter Message *" data-sb-validations="required"></textarea><br>
+                </div>
+                <div class="form-group">
+                    <input type="hidden" name="_captcha" value="false">
+                </div>
+            </div>
+                <input type="hidden" name="_next" value="https://mandeepkaloti93.github.io/dccimmigration/">
+                <div class="text-center">
+                    <button id="submit" type="submit">Send</button>
+                </div>
+            </div>
+            </form>
             </div>
         </section>
 
