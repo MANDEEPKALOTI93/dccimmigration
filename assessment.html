@@ -69,16 +69,16 @@
                         <input type="hidden" name="_subject" value="NEW REQUEST AN ASSESSMENT!" />
                    </div>  
                     <div class="form-group">
-                    <input class="form-control" id="_name" type="text" placeholder="Full Name *" name="name" data-sb-validation="required" /><br>
+                    <input class="form-control" id="_name" type="text" placeholder="Full Name *" name="name" required/><br>
                 </div>
                 <div class="form-group">
-                    <input class="form-control" id="_email" type="email" name="email" placeholder="Your Email *" data-sb-validation="required" /><br>
+                    <input class="form-control" id="_email" type="email" name="email" placeholder="Your Email *" required /><br>
                 </div>
                 <div class="form-group mb-md-0">
-                    <input class="form-control" id="_phone" type="phone" name="phone" placeholder="Your Phone Number *" data-sb-validation="required" /><br>
+                    <input class="form-control" id="_phone" type="phone" name="phone" placeholder="Your Phone Number *" required /><br>
                 </div>
                 <div class="form-group">
-                    <select class="form-control" id="_services" type="services" value="" name="services">
+                    <select class="form-control" id="_services" type="services" name="services" required>
                         <option>Select Services</option>
                         <option>STUDY VISA</option>
                         <option>VISITOR VISA</option>
@@ -90,7 +90,7 @@
             </div>
             <div class="col-md-6">
                 <div class="form-group form-group-textarea mb-md-0">
-                    <textarea class="form-control" id="_message" rows="9" cols="9" placeholder="Enter Message *" data-sb-validations="required"></textarea><br>
+                    <textarea class="form-control" id="_message" rows="9" cols="9" placeholder="Enter Message *" required></textarea><br>
                 </div>
                 <div class="form-group">
                     <input type="hidden" name="_captcha" value="false">
@@ -100,7 +100,7 @@
                 <div class="text-center">
                     <button id="submitButton" type="submit">Submit</button>
                 </div>
-            </form>
+                </form>
             </div>
         </section>
 
