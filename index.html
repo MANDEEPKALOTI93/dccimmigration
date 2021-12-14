@@ -182,7 +182,7 @@
                 </div>
                 <div class="form-group">
                     <select class="form-control" id="_services" type="services" name="services" required>
-                        <option>Select Services</option>
+                        <option>Select a Services</option>
                         <option>STUDY VISA</option>
                         <option>VISITOR VISA</option>
                         <option>WORK PERMIT / LMIA</option>
@@ -201,11 +201,19 @@
             </div>
                 <input type="hidden" name="_next" value="https://mandeepkaloti93.github.io/dccimmigration/">
                 <div class="text-center">
-                    <button id="submitButton" type="submit" value="Message send successefully">Submit</button>
+                    <button id="submitButton" type="submit" onclick="clicked(event)">Submit</button>
                 </div>
                 </form>
             </div>
             </section>
+            <script>
+function clicked(e)
+{
+    if(!confirm('THANK YOU FOR SUBMITTING A FROM! WE WILL CONTACT YOU SHORTLY.')) {
+        e.preventDefault();
+    }
+}
+</script>
             <!--- <form id="contactForm" data-sb-form-api-token="e8d59cbe-9d6c-471e-b4d8-7b1e1f2af94c"> -->
                 <!-- comment<form id="contactForm "action="https://formsubmit.co/kaurmandeep6701@gmail.com" method="POST">
                     <div class="row align-items-stretch mb-5">
