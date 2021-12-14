@@ -52,11 +52,3 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
-
-function clicked(e)
-{
-    if(!confirm('THANK YOU FOR SUBMITTING A FROM! WE WILL CONTACT YOU SHORTLY.')) {
-        e.preventDefault();
-    }
-}
-</script>
