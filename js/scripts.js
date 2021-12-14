@@ -58,4 +58,3 @@ function clicked()
 {
     return alert('Thank you for submitting an assessment form! We will contact you shortly. Please click on OK. ');
 };
-
