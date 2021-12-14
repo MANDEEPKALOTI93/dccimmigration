@@ -59,23 +59,3 @@ function clicked()
     return alert('Thank you for submitting an assessment form! We will contact you shortly. Please click on OK. ');
 };
 
-//yotube videos javascript
-window.onYouTubePlayerAPIReady = function(){
-        var player = new YT.Player('player', {
-            height: '390',
-            width: '640',
-            videoId: 'M7lc1UVf-VE',
-            events: {
-                'onReady': onPlayerReady,
-                'onStateChange': onPlayerStateChange
-            };
-        });
-    };
-
-
- function onPlayerStateChange(event) {
-    if (event.data == YT.PlayerState.PLAYING && !done) {
-      setTimeout(stopVideo, 6000);
-      done = true;
-    };
-  };
