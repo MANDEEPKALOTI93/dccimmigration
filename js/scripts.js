@@ -53,6 +53,7 @@ window.addEventListener('DOMContentLoaded', event => {
 
 });
 
+//submit button script
 function clicked() 
 {
     return alert('Thank you for submitting an assessment form! We will contact you shortly.');
