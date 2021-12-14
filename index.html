@@ -201,19 +201,19 @@
             </div>
                 <input type="hidden" name="_next" value="https://mandeepkaloti93.github.io/dccimmigration/">
                 <div class="text-center">
-                    <button id="submitButton" type="submit" onclick="clicked(event)">Submit</button>
+                    <button id="submitButton" type="submit" onclick="return clicked">Submit</button>
                 </div>
                 </form>
             </div>
             </section>
-            <script>
-function clicked(e)
+
+<script>
+function clicked() 
 {
-    if(!confirm('THANK YOU FOR SUBMITTING A FROM! WE WILL CONTACT YOU SHORTLY.')) {
-        e.preventDefault();
-    }
+    return confirm('Thank you for submitting an assessment form! We will contact you shortly.');
 }
 </script>
+         
             <!--- <form id="contactForm" data-sb-form-api-token="e8d59cbe-9d6c-471e-b4d8-7b1e1f2af94c"> -->
                 <!-- comment<form id="contactForm "action="https://formsubmit.co/kaurmandeep6701@gmail.com" method="POST">
                     <div class="row align-items-stretch mb-5">
