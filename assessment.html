@@ -98,11 +98,19 @@
             </div>
                 <input type="hidden" name="_next" value="https://mandeepkaloti93.github.io/dccimmigration/assessment.html">
                 <div class="text-center">
-                    <button id="submitButton" type="submit">Submit</button>
+                   <button id="submitButton" type="submit" onclick="return clicked();">Submit</button>
                 </div>
                 </form>
             </div>
-        </section>
+            </section>
+
+<!-- Submit button javascript-->
+<script>
+function clicked() 
+{
+    return alert('Thank you for submitting an assessment form! We will contact you shortly.');
+}
+</script>
 
         <!-- Footer-->
         <footer class="footer py-4">
