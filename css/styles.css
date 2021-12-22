@@ -7692,10 +7692,6 @@ textarea.form-control-lg {
   text-transform: lowercase !important;
 }
 
-.text-uppercase {
-  text-transform: uppercase !important;
-}
-
 .text-capitalize {
   text-transform: capitalize !important;
 }
@@ -11884,4 +11880,3 @@ transform: translateX(100%);
 transform: translateX(-100%);
 }
 }
- 
