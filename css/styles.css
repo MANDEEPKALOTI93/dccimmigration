@@ -11493,7 +11493,57 @@ header.masthead {
   background-position: center center;
   background-size: cover;
   backface-visibility: hidden;
-}     
+} 
+#STUDENT_BG{
+  width: 100%;
+  height: 100%;
+  background-image: url("../assets/services/student.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  backface-visibility: hidden;
+}
+#WORKER_BG{
+  width: 100%;
+  height: 100%;
+  background-image: url("../assets/services/worker.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  backface-visibility: hidden;
+}
+#FAMILY_BG{
+  width: 100%;
+  height: 100%;
+  background-image: url("../assets/services/family.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  backface-visibility: hidden;
+}
+#TRUCK_BG{
+  width: 100%;
+  height: 100%;
+  background-image: url("../assets/services/truck.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  backface-visibility: hidden;
+}
+#EXPRESS_BG{
+  width: 100%;
+  height: 100%;
+  background-image: url("../assets/services/express.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  backface-visibility: hidden;
+}    
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
   font-style: italic;
