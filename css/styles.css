@@ -3763,18 +3763,16 @@ textarea.form-control-lg {
 .dropdown-item {
   display: block;
   width: 100%;
-  padding: 0.5rem 0.5rem;
-  clear: both;
+  padding: 0.5rem 0.5rem; 
   font-weight: 400;
   color: black;
-  text-align: inherit;
   text-decoration: none;
   white-space: nowrap;
   background-color: transparent;
   border: 0;
 }
 .dropdown-item:hover, .dropdown-item:focus {
-  color: #1e2125;
+  color: orange;
 }
 .dropdown-item.active, .dropdown-item:active {
   color: #fff;
@@ -4021,6 +4019,7 @@ textarea.form-control-lg {
 }
 
 .tab-content > .tab-pane {
+
   display: none;
 }
 .tab-content > .active {
@@ -11336,7 +11335,7 @@ p {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #f0f8ff;
+  background-color: #c4d9eb;
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
@@ -11384,7 +11383,7 @@ p {
   #mainNav.navbar-shrink {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: #f0f8ff;
+    background-color: #c4d9eb;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -11475,7 +11474,7 @@ header.masthead {
 #KNOWLEDGE_BG{
   width: 100%;
   height: 100%;
-  background-image: url("../assets/img/Knowledge-Bank.jpg");
+  background-image: url("../assets/img/knowledge.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -11831,9 +11830,9 @@ header.masthead .masthead-heading {
   text-align: center;
 }
 .team-member img {
-  width: 14rem;
-  height: 14rem;
-  border: 0.5rem solid rgba(0, 0, 0, 0.1);
+  width: 10rem;
+  height: 10rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
 }
 .team-member h4, .team-member .h4 {
   margin-top: 1.5rem;
@@ -11901,7 +11900,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 .footer {
   text-align: center;
   font-size: 0.9rem;
-  background-color: #f0f8ff;
+  background-color: #c4d9eb;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 .cssmarquee {
@@ -11938,7 +11937,7 @@ transform: translateX(-100%);
  
 ul li ul.dropdown{
         min-width: 220px; /* Set width of the dropdown */
-        background-color: #f0f8ff;
+        background-color: #c4d9eb;
         display: none;
         position: absolute;
     }
@@ -11948,3 +11947,4 @@ ul li ul.dropdown{
     ul li ul.dropdown li{
         display: block;
     }
+
