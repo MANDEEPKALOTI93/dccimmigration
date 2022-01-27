@@ -11416,7 +11416,6 @@ header.masthead {
   backface-visibility: hidden;
   animation: SLIDE_BG 8s linear infinite 0S;
   animation-timing-function: ease-in-out;
-
 }
 
 @keyframes SLIDE_BG{
@@ -11948,3 +11947,54 @@ ul li ul.dropdown{
         display: block;
     }
 
+
+
+#slider{
+  overflow: hidden;
+}
+#slider figure{
+  position: relative;
+  width: 250%;
+  margin: 0;
+  left: 0;
+  animation: 20s slider infinite;
+  transition: inherit;
+}
+#slider figure img{
+  float: left;
+  width: 20%;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-right: 1px;
+}
+@keyframes slider{
+  0%{
+    left: 0%;
+  }
+  20%{
+    left: 0%;
+  }
+  25%{
+    left: -100%;
+  }
+  45%{
+    left: -100%;
+  }
+  50%{
+    left: -200%;
+  }
+  70%{
+    left: -200%;
+  }
+  75%{
+    left: -300%;
+  }
+  95%{
+    left: -300%;
+  }
+  100%{
+    left: -400%;
+  }
+}
